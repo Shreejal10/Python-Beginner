@@ -1,0 +1,1 @@
+A simple password generator app where the user inputs the length of password required and the user is presented with a randomly generated password of the required length.
