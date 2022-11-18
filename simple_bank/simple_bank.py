@@ -41,10 +41,11 @@ class Bank(User):
 
 
 print("\t\t\t\tWelcome to your Bank!!!!!")
-f_name = input("Enter your Name: ")
+# initialize a user by getting inputs
+name = input("Enter your Name: ")
 age = int(input("Enter your age: "))
 gender = input("Enter your gender: ")
-user = Bank(f_name, age, gender)
+user = Bank(name, age, gender)  # create an object for class Bank
 
 
 ch = True  # initialize conditon for do-while loop
