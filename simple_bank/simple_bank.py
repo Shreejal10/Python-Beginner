@@ -41,7 +41,7 @@ class Bank(User):
 
 
 print("\t\t\t\tWelcome to your Bank!!!!!")
-f_name = input("Enter your First Name: ")
+f_name = input("Enter your Name: ")
 age = int(input("Enter your age: "))
 gender = input("Enter your gender: ")
 user = Bank(f_name, age, gender)
