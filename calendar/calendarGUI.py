@@ -13,7 +13,7 @@ e.get()
 def click():
     text = calendar.calendar(int(e.get()))
     root.geometry("550x600")
-    root.title("Calendar 2023")
+    root.title("Calendar App")
     label1 = Label(root, text="Calendar", font=(
         "Arial", 28, "bold"), bg="black", fg="white")
     label1.grid(row=1, column=1)
