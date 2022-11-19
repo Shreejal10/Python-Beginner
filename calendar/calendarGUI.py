@@ -1,10 +1,10 @@
 from tkinter import *
 import calendar
 root = Tk()
-
+root.title("Calendar App")
 e = Entry(root)
 root.config(background="black")
-msg = Label(root, text="Enter a year", bg="black", fg="white", width="30")
+msg = Label(root, text="Enter a year", bg="black", fg="white", width="40")
 msg.grid(row=1, column=1, pady=5)
 e.grid(row=2, column=1, pady=5)
 e.get()
