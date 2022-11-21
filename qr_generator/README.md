@@ -1,0 +1,1 @@
+A simple qr code generator where a user is asked to enter an url and the corresponding QR Code is generated
